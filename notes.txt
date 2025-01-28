@@ -1,0 +1,27 @@
+Before to begin: install dbt-core and dbt adapters that you will be using like (dbt-bigquery)
+
+(1) To init a project : dbt init [project_name]
+(automatically create the dbt project folder and logs folders)
+
+(2) The profile name in dbt_project yaml file need to match profile name  in ~/.dbt profile file
+
+(3) Check if configuration are valid by running : dbt debug 
+
+(4) To run a dbt model dbt run
+
+(5) To run while refreshing in bigquery : dbt run --full-refresh
+
+In SQL always separate logic that cleans up data from logic that transform data.
+
+CTEs (Common Table Expression) : Result set of a query which exists temporarily and for 
+use  for a larger query. 
+
+We can use ref() as keyword to ref to staging file. 
+
+(6) To perform a test on the table.
+    - Put a yaml file with the test in the models directory
+    - Run the command dbt test (or dbt test --select [model_name] )
+
+(7) To generate documentation 
+    - dbt docs generate 
+    - dbt docs serve
