@@ -3,7 +3,9 @@
 ## Overview
 This repository contains a step-by-step tutorial implementing the classic Jaffle Shop example using DBT Core. The project serves as a Proof of Concept (PoC) to demonstrate and explore the fundamental concepts of DBT Core.
 
-![DBT Logo](https://raw.githubusercontent.com/dbt-labs/dbt/ec7dee39f793aa4f7dd3dae37282cc87664813e4/etc/dbt-logo-full.svg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dbt-labs/dbt/ec7dee39f793aa4f7dd3dae37282cc87664813e4/etc/dbt-logo-full.svg" alt="DBT Logo"/>
+</p>
 
 ## Tech Stack
 - **DBT Core**: Data transformation tool
